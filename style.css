@@ -1,0 +1,689 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #D11248;
+}
+
+.my-header {
+  position: relative;
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.logo {
+  color: #D11248 !important;
+  font-size: 36px;
+  line-height: 60px;
+  padding: 7px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  margin-top: -10px;
+  width: 20%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #D11248;
+  font-weight: 500;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  border: 1px solid #D11248;
+  color: #D11248;
+  padding: 9px 19px;
+}
+
+/* bannner section */
+.banner-section {
+  height: 700px;
+}
+
+.banner-section .container .row .col-md-6:first-child {
+  padding-top: 200px;
+}
+
+.banner-section .container .row .col-md-6:first-child h1 {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.banner-section .container .row .col-md-6:first-child h1 span {
+  color: #0b0b16;
+  font-family: 'Nunito',sans-serif;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div .banner-btn {
+  padding: 7px 25px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div .banner-btn:first-child {
+  border: 1px solid #D11248;
+  color: #D11248;
+  margin-right: 10px;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div .banner-btn:first-child:hover {
+  background-color: #D11248;
+  color: #fff;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div .banner-btn:last-child {
+  background-color: transparent;
+  border: 1px solid #0b0b16;
+  color: #0b0b16;
+}
+
+.banner-section .container .row .col-md-6:first-child .btn-div .banner-btn:last-child:hover {
+  background-color: #0b0b16;
+  color: #fff;
+}
+
+.banner-section .container .row .col-md-6:first-child .icon-div {
+  padding-top: 30px;
+}
+
+.banner-section .container .row .col-md-6:first-child .icon-div svg {
+  width: 30px;
+  height: 30px;
+  padding: 7px 5px;
+  border-radius: 50%;
+  border: 1px solid #D11248;
+  color: #D11248;
+  margin-right: 10px;
+}
+
+.banner-section .container .row .col-md-6:first-child .icon-div svg:hover {
+  background-color: #D11248;
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner-section .container .row .col-md-6:last-child .img-div {
+  padding-top: 100px;
+}
+
+.banner-section .container .row .col-md-6:last-child .img-div img {
+  width: 100%;
+}
+
+.banner-section .container .row .col-md-6:last-child .img-div img:hover {
+  cursor: pointer;
+  transform: rotateY(360deg);
+  transition: all ease-in-out 1s;
+}
+
+/* service section */
+.service-section {
+  padding: 50px 0px 100px 0px;
+}
+
+.service-section .container .row .col-md-3 .service-block {
+  border: 1px solid #D11248;
+  text-align: center;
+}
+
+.service-section .container .row .col-md-3 .service-block:hover {
+  transform: translateY(-10px);
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.service-section .container .row .col-md-3 .service-block p {
+  text-align: justify;
+  font-size: 15.5px;
+  font-weight: 500;
+  padding: 10px 20px;
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.service-section .container .row .col-md-3 .service-block h5 {
+  color: #D11248;
+  padding-top: 20px;
+}
+
+.service-section .container .row .col-md-3 .service-block .img-div {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  background-color: #D11248;
+  padding: 15px 15px;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.service-section .container .row .col-md-3 .service-block .img-div img {
+  width: 100%;
+}
+
+/* about section */
+.about-section {
+  padding: 100px 0px;
+}
+
+.about-section .container .col-md-6:first-child ul {
+  width: 80%;
+  padding-left: 0px;
+}
+
+.about-section .container .col-md-6:first-child ul li {
+  list-style: none;
+  padding: 30px 0px;
+  border-top: 2px solid #D11248;
+}
+
+.about-section .container .col-md-6:first-child ul li:last-child {
+  border-bottom: 2px solid #D11248;
+}
+
+.about-section .container .col-md-6:first-child ul li a {
+  text-decoration: none;
+  color: #D11248;
+  font-weight: 600;
+}
+
+.about-section .container .col-md-6:first-child ul li svg {
+  color: #D11248;
+  font-weight: 400;
+}
+
+.about-section .container .col-md-6:last-child .container {
+  height: 100%;
+}
+
+.about-section .container .col-md-6:last-child .container .row {
+  justify-content: center;
+  height: 49%;
+}
+
+.about-section .container .col-md-6:last-child .container .row:last-child {
+  padding-top: 20px;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 {
+  vertical-align: middle;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block {
+  border: 1px solid #D11248;
+  background-color: #D11248;
+  text-align: center;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #D11248;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transform: rotateY(360deg);
+  transition: all ease-in 1s;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block:hover h5 {
+  color: #D11248 !important;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block .img-div {
+  background-color: #fff;
+  width: 30%;
+  padding: 15px 15px;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block .img-div img {
+  width: 100%;
+}
+
+.about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block h5 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* form section */
+.form-section {
+  padding: 100px 0px;
+}
+
+.form-section .container .col-md-6:first-child h2 {
+  font-family: 'Nunito',sans-serif;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.form-section .container .col-md-6:first-child h2 span {
+  font-family: 'Nunito',sans-serif;
+  color: #D11248;
+}
+
+.form-section .container .col-md-6:first-child form {
+  width: 60%;
+  text-align: center;
+}
+
+.form-section .container .col-md-6:first-child form input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px 20px;
+  border: 1px solid #D11248;
+  border-radius: 50px;
+  outline: none;
+}
+
+.form-section .container .col-md-6:first-child form input::placeholder {
+  color: #D11248;
+}
+
+.form-section .container .col-md-6:first-child form input:last-child {
+  background-color: #D11248;
+  color: #fff;
+}
+
+.form-section .container .col-md-6:first-child form input:last-child:hover {
+  background-color: transparent;
+  color: #D11248;
+}
+
+.form-section .container .col-md-6:last-child img {
+  width: 80%;
+  padding-left: 10%;
+}
+
+/* student section */
+.student-section {
+  padding: 100px 0px;
+}
+
+.student-section .container .col-md-6:first-child h2 {
+  padding-bottom: 30px;
+}
+
+.student-section .container .col-md-6:first-child h2 span {
+  color: #D11248;
+}
+
+.student-section .container .col-md-6 .growth-block {
+  padding-right: 50px;
+}
+
+.student-section .container .col-md-6 .growth-block h5 {
+  color: #0b0b16;
+}
+
+.student-section .container .col-md-6 .growth-block p {
+  color: #474747;
+  font-family: 'Nunito',sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.student-section .container .col-md-6 .growth-block:hover {
+  cursor: pointer;
+}
+
+.student-section .container .col-md-6:last-child img {
+  width: 100%;
+  margin-top: -50px;
+}
+
+.student-section .container .col-md-6:last-child img:hover {
+  cursor: pointer;
+}
+
+/* dwonload section */
+.download-section {
+  padding: 100px 0px;
+  background-color: #D11248;
+}
+
+.download-section .container .col-md-6 form {
+  background-color: #fff;
+  width: 70%;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.download-section .container .col-md-6 form h3 {
+  color: #D11248;
+}
+
+.download-section .container .col-md-6 form input {
+  width: 80%;
+  margin-top: 20px;
+  padding: 7px 20px;
+  border: 1px solid #D11248;
+  border-radius: 10px;
+  outline: none;
+}
+
+.download-section .container .col-md-6 form input::placeholder {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.download-section .container .col-md-6 form input:last-child {
+  background-color: #D11248;
+  color: #fff;
+}
+
+.download-section .container .col-md-6 form input:last-child:hover {
+  background-color: transparent;
+  color: #D11248;
+}
+
+.download-section .container .col-md-6:last-child img {
+  width: 80%;
+  padding-left: 20%;
+}
+
+.download-section .container .col-md-6:last-child img:hover {
+  transform: scale(1.08);
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+
+/* growth section */
+.growth-section {
+  padding: 100px 0px;
+}
+
+.growth-section .container .col-md-6:first-child {
+  padding-top: 30px;
+}
+
+.growth-section .container .col-md-6:first-child h2 {
+  font-family: 'Nunito',sans-serif;
+  padding-bottom: 20px;
+}
+
+.growth-section .container .col-md-6:first-child h2 span {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.growth-section .container .col-md-6:first-child p {
+  text-align: justify;
+  padding-right: 10%;
+}
+
+.growth-section .container .col-md-6:first-child button {
+  margin-top: 10px;
+  background-color: #D11248;
+  color: #fff;
+  padding: 7px 20px;
+  border: 1px solid #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.growth-section .container .col-md-6:first-child button:hover {
+  background-color: transparent;
+  color: #D11248;
+}
+
+.growth-section .container .col-md-6:last-child img {
+  width: 100%;
+}
+
+/* review section */
+.review-section {
+  padding: 100px 0px;
+}
+
+.review-section h2 {
+  font-family: 'Nunito',sans-serif;
+  padding-bottom: 100px;
+}
+
+.review-section h2 span {
+  font-family: 'Nunito',sans-serif;
+  color: #D11248;
+}
+
+.review-section .container .col-md-4 .review-block {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px #e0e0e0;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+.review-section .container .col-md-4 .review-block:hover {
+  transform: scale(1.02);
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.review-section .container .col-md-4 .review-block h5 {
+  padding-top: 10px;
+  font-family: 'Nunito',sans-serif;
+}
+
+.review-section .container .col-md-4 .review-block span a {
+  text-decoration: none;
+}
+
+.review-section .container .col-md-4 .review-block p {
+  color: #575757;
+  font-family: 'Nunito',sans-serif;
+}
+
+.review-section .container .col-md-4 .review-block .img-div {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.review-section .container .col-md-4 .review-block .img-div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.review-section .container .col-md-4 .separate-block {
+  margin-top: 30px;
+}
+
+/* review section */
+.pack-section {
+  padding: 100px 0px;
+  background-color: #f2f6ff;
+}
+
+.pack-section h1:first-child {
+  padding-bottom: 150px;
+  font-family: 'Nunito',sans-serif;
+}
+
+.pack-section .container .row {
+  position: relative;
+}
+
+.pack-section .container .row .col-md-4 {
+  padding-top: 30px;
+}
+
+.pack-section .container .row .col-md-4 .pack-div {
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pack-section .container .row .col-md-4 h1 {
+  font-family: 'Nunito',sans-serif;
+}
+
+.pack-section .container .row .col-md-4 .btn-div {
+  width: 100%;
+}
+
+.pack-section .container .row .col-md-4 .btn-div button {
+  margin: 50px auto !important;
+  margin-left: 40% !important;
+  background-color: #f2f6ff;
+  color: #0d6efd;
+  font-size: 13px;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.pack-section .container .row .col-md-4 .last-btn {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 10px 0px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pack-section .container .row .col-md-4 p {
+  color: #0d6efd;
+  padding-bottom: 30px;
+}
+
+.pack-section .container .row .col-md-4 ul {
+  padding-left: 20%;
+}
+
+.pack-section .container .row .col-md-4 ul li {
+  list-style: none;
+  padding: 20px 0px;
+  font-weight: 600;
+}
+
+.pack-section .container .row .col-md-4 ul li svg {
+  color: #0d6efd;
+  margin-right: 20px;
+}
+
+.pack-section .container .row .middle-div {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.pack-section .container .row .middle-div .last-btn {
+  background-color: #D11248;
+}
+
+/* certificate section */
+.certificate-section {
+  padding: 100px 0px;
+}
+
+.certificate-section .container .col-md-6:first-child .container .row:last-child {
+  padding-top: 20px;
+}
+
+.certificate-section .container .col-md-6:first-child .container .col-md-5 .certi-block {
+  background-color: #262038;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.certificate-section .container .col-md-6:first-child .container .col-md-5 .certi-block h5 {
+  color: #D11248;
+  padding-top: 20px;
+}
+
+.certificate-section .container .col-md-6:first-child .container .col-md-5 .certi-block .img-box {
+  width: 40%;
+  margin: auto;
+}
+
+.certificate-section .container .col-md-6:first-child .container .col-md-5 .certi-block .img-box img {
+  width: 100%;
+}
+
+.certificate-section .container .col-md-6:last-child img {
+  width: 100%;
+  margin-top: -10px;
+}
+
+/* footer */
+footer {
+  padding: 100px 0px;
+  background-color: #D11248;
+  color: #fff;
+}
+
+footer .container .col-md-3 ul {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+footer .container .col-md-3 ul li {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+footer .container .col-md-3 .icon-box svg {
+  width: 35px;
+  height: 35px;
+  padding: 10px 10px;
+  background-color: #fff;
+  color: #D11248 !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+footer .container .col-md-3 .icon-box svg:hover {
+  background-color: transparent;
+  color: #fff !important;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all ease-in 1s;
+}
+/*# sourceMappingURL=style.css.map */
