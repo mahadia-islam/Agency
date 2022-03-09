@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
 
@@ -15,7 +17,8 @@ header {
   max-width: 1300px;
   margin: auto;
   padding: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 4px;
 }
 
@@ -27,7 +30,8 @@ header {
   text-decoration: none;
   font-weight: bold;
   text-align: center;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
   margin-top: -10px;
   width: 20%;
@@ -48,6 +52,8 @@ nav {
 nav ul {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -153,7 +159,9 @@ nav ul li a:hover {
 
 .banner-section .container .row .col-md-6:last-child .img-div img:hover {
   cursor: pointer;
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition: all ease-in-out 1s;
   transition: all ease-in-out 1s;
 }
 
@@ -168,7 +176,9 @@ nav ul li a:hover {
 }
 
 .service-section .container .row .col-md-3 .service-block:hover {
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
@@ -237,7 +247,9 @@ nav ul li a:hover {
 }
 
 .about-section .container .col-md-6:last-child .container .row {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 49%;
 }
 
@@ -255,13 +267,16 @@ nav ul li a:hover {
   text-align: center;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #D11248;
+  -webkit-box-shadow: 0px 0px 10px #D11248;
+          box-shadow: 0px 0px 10px #D11248;
 }
 
 .about-section .container .col-md-6:last-child .container .row .col-md-6 .about-block:hover {
   background-color: #fff;
   cursor: pointer;
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition: all ease-in 1s;
   transition: all ease-in 1s;
 }
 
@@ -318,6 +333,18 @@ nav ul li a:hover {
   border: 1px solid #D11248;
   border-radius: 50px;
   outline: none;
+}
+
+.form-section .container .col-md-6:first-child form input::-webkit-input-placeholder {
+  color: #D11248;
+}
+
+.form-section .container .col-md-6:first-child form input:-ms-input-placeholder {
+  color: #D11248;
+}
+
+.form-section .container .col-md-6:first-child form input::-ms-input-placeholder {
+  color: #D11248;
 }
 
 .form-section .container .col-md-6:first-child form input::placeholder {
@@ -406,6 +433,21 @@ nav ul li a:hover {
   outline: none;
 }
 
+.download-section .container .col-md-6 form input::-webkit-input-placeholder {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.download-section .container .col-md-6 form input:-ms-input-placeholder {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
+.download-section .container .col-md-6 form input::-ms-input-placeholder {
+  color: #D11248;
+  font-family: 'Nunito',sans-serif;
+}
+
 .download-section .container .col-md-6 form input::placeholder {
   color: #D11248;
   font-family: 'Nunito',sans-serif;
@@ -427,7 +469,9 @@ nav ul li a:hover {
 }
 
 .download-section .container .col-md-6:last-child img:hover {
-  transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: all ease-in-out 1s;
   transition: all ease-in-out 1s;
   cursor: pointer;
 }
@@ -492,13 +536,16 @@ nav ul li a:hover {
 .review-section .container .col-md-4 .review-block {
   text-align: center;
   background-color: #fff;
-  box-shadow: 0px 0px 7px #e0e0e0;
+  -webkit-box-shadow: 0px 0px 7px #e0e0e0;
+          box-shadow: 0px 0px 7px #e0e0e0;
   padding: 20px 20px;
   border-radius: 50px;
 }
 
 .review-section .container .col-md-4 .review-block:hover {
-  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
@@ -684,6 +731,7 @@ footer .container .col-md-3 .icon-box svg:hover {
   color: #fff !important;
   border: 1px solid #fff;
   cursor: pointer;
+  -webkit-transition: all ease-in 1s;
   transition: all ease-in 1s;
 }
 /*# sourceMappingURL=style.css.map */
