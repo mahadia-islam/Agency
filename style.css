@@ -88,12 +88,12 @@ nav ul li a:hover {
 
 .banner-section .container .row .col-md-6:first-child h1 {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .banner-section .container .row .col-md-6:first-child h1 span {
   color: #0b0b16;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .banner-section .container .row .col-md-6:first-child .btn-div {
@@ -189,7 +189,7 @@ nav ul li a:hover {
   font-weight: 500;
   padding: 10px 20px;
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .service-section .container .row .col-md-3 .service-block h5 {
@@ -311,13 +311,13 @@ nav ul li a:hover {
 }
 
 .form-section .container .col-md-6:first-child h2 {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   width: 60%;
   padding-bottom: 20px;
 }
 
 .form-section .container .col-md-6:first-child h2 span {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   color: #D11248;
 }
 
@@ -389,7 +389,7 @@ nav ul li a:hover {
 
 .student-section .container .col-md-6 .growth-block p {
   color: #474747;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-size: 17px;
   padding-top: 10px;
 }
@@ -435,22 +435,22 @@ nav ul li a:hover {
 
 .download-section .container .col-md-6 form input::-webkit-input-placeholder {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .download-section .container .col-md-6 form input:-ms-input-placeholder {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .download-section .container .col-md-6 form input::-ms-input-placeholder {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .download-section .container .col-md-6 form input::placeholder {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .download-section .container .col-md-6 form input:last-child {
@@ -486,13 +486,13 @@ nav ul li a:hover {
 }
 
 .growth-section .container .col-md-6:first-child h2 {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   padding-bottom: 20px;
 }
 
 .growth-section .container .col-md-6:first-child h2 span {
   color: #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .growth-section .container .col-md-6:first-child p {
@@ -506,7 +506,7 @@ nav ul li a:hover {
   color: #fff;
   padding: 7px 20px;
   border: 1px solid #D11248;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .growth-section .container .col-md-6:first-child button:hover {
@@ -524,12 +524,12 @@ nav ul li a:hover {
 }
 
 .review-section h2 {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   padding-bottom: 100px;
 }
 
 .review-section h2 span {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
   color: #D11248;
 }
 
@@ -552,7 +552,7 @@ nav ul li a:hover {
 
 .review-section .container .col-md-4 .review-block h5 {
   padding-top: 10px;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .review-section .container .col-md-4 .review-block span a {
@@ -561,7 +561,7 @@ nav ul li a:hover {
 
 .review-section .container .col-md-4 .review-block p {
   color: #575757;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .review-section .container .col-md-4 .review-block .img-div {
@@ -587,7 +587,7 @@ nav ul li a:hover {
 
 .pack-section h1:first-child {
   padding-bottom: 150px;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .pack-section .container .row {
@@ -605,7 +605,7 @@ nav ul li a:hover {
 }
 
 .pack-section .container .row .col-md-4 h1 {
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 .pack-section .container .row .col-md-4 .btn-div {
